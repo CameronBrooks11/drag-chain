@@ -1,4 +1,6 @@
-// Parametric cable drag chain link 
+// Cable chain link 
+// Original: Joerg Scheuermann (https://www.thingiverse.com/thing:8239) 
+// License: CC BY-SA 3.0
 
 // ====================================================================
 // Parameters
