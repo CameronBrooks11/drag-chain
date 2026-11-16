@@ -15,22 +15,30 @@
 $fn = $preview ? 32 : 128;
 z_fight = $preview ? 0.05 : 0;
 
-// [Size]
+/* [Size] */
+// Outside width of a link (mm)
 width = 40;
+// Length of a link (mm)
 length = 50;
+// Height of a link (mm)
 height = 20;
+// Wall thickness (mm)
 thickness = 2;
 
-// [Angles]
+/* [Angles] */
+// Bend limit one way (degrees)
 under_angle = 10;
+// Bend limit the other way (degrees)
 over_angle = 40;
 
-// [Variant]
+/* [Variant] */
 inner_axis = false;
 top_style = "clip"; // ["clip", "closed"]
 
-// [Fit]
+/* [Fit] */
+// Clearance between moving parts (mm)
 tolerance = 0.2;
+// Extra clearance in the axle holes (mm)
 hole_tolerance = 0.5;
 
 // ====================================================================
