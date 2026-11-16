@@ -1,0 +1,3 @@
+title: drag-chain
+description: A parametric cable drag chain link in OpenSCAD
+models: drag_chain.scad
