@@ -1,4 +1,11 @@
-// Parametric cable drag chain link 
+// Parametric cable drag chain link
+//
+// Adapted from Joerg Scheuermann's cable chain link,
+// https://www.thingiverse.com/thing:8239, licensed CC BY-SA 3.0.
+// Changes by Cameron Brooks: new defaults (width 40, over_angle 40), a hole_tolerance
+// parameter for the axle holes, and a refactor of the axle radius and the cut helpers'
+// arguments.
+// This adaptation is licensed CC BY-SA 4.0; see LICENSE.
 
 // ====================================================================
 // Parameters
