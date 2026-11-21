@@ -192,8 +192,8 @@ module chain_link(width, length, height, thick, under_deg, over_deg, inner_ax, s
     style = (style != "clip" && style != "closed") ? "clip" : style;
     if (style != "clip" && style != "closed")
         echo(str("Warning: style must be 'clip' or 'closed', using 'clip'"));
-    is_closed = (style == "closed") ? true : false;
-    use_clip = (style == "clip") ? true : false;
+    is_closed = style == "closed";
+    use_clip = style == "clip";
 
     // limit angles to reasonable values
     max_angle = 50;
