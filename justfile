@@ -1,6 +1,10 @@
 default:
     @just --list
 
+# Render the link's variants, and check two links bend to their limits and no further
+test:
+    python3 tests/test_drag_chain.py
+
 # Everything CI runs, bar the tests
 check: fmt-check
 
